@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(3, 3, 83);
+    
+    
+}
+#container{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+
+}
+#mainHeading{
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.chartSection{
+    height: 400px;
+    width: 800px;
+    /* border: 1px solid black; */
+    margin: 10px 20px 10px 40px;
+    position: relative;
+
+}
+.chart{
+    height: auto;
+    width: 800px;
+    /* border: 1px solid black; */
+
+}
+.buttons {
+   
+   
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.buttons button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: aqua;
+    color: black;
+
+}
+.listSection{
+  height: auto;
+  width: auto;
+  margin-left: 140vh;
+  position: absolute;
+
+}
+.listSection li{
+    display: flex;
+    color: white;
+    list-style: none;
+    margin: 5px 5px 10px 5px;
+    /* border: 1px solid black; */
+    text-align: center;
+    justify-content: center;
+
+}
+.listSection li button{
+    height: 50px;
+    width: 100px;
+    color: black;
+    cursor: pointer;
+    background-color: blue;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px 20px 0px 5px ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.listSection li button:hover{
+    background-color: aqua;
+
+} 
+#bookingValue{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 20px 0px 5px ;
+    
+
+}
+.profit{
+    color: rgb(32, 87, 32);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 20px 0px 5px ;
+
+}
+#detailSection{
+    height: auto;
+    width: 800px;
+    /* border: 1px solid black; */
+    margin-left: 6vh;
+    
+}
+.detailSection span{
+    margin-top: 40px;
+}
+.stockName{
+    color:white;
+    font-size: 18px;
+    font-weight: 800;
+    margin: 5px 20px 0px 5px ;
+}
+#summary{
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    overflow-x: auto;
+    margin-left: 5px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Stock Market Analysis</title>
+        <link href="sh_mar.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@1.0.0"></script>
+        
+    </head>
+    <body>
+    <h2 id="mainHeading">Stock Maket Analysis</h2>
+    <div id="container">
+    <div id="chartSection" class="chartSection">
+        <canvas id="chartCanvas" width="400" height="200"></canvas>
+        <div id="buttons" class="buttons">
+            <button id="1month">1mo</button>
+            <button id="3month">3mo</button>
+            <button id="1year">1y</button>
+            <button id="5year">5y</button>
+
+        </div>
+    </div>
+    <ul id="listSection" class="listSection">
+        <li class="stockList" id="stockList1">
+            <button id="stockNameBtn" class="stockNameBtn"></button>
+            <h4 id="bookingValue" class="bookingValue">efgh</h4>
+            <h4 id="profit" class="profit">ijkl</h4>
+        </li>
+       
+    </ul>
+    <div id="detailSection" class="detailSection">
+        <div id="summaryElement" class="summaryElement">
+        <span id="CurrentStockName" class="stockName"></span>
+         <span id="bookingValue" class="bookingValue1"></span>
+        <span id="profit" class="profit"></span>
+        <p id="summary"> </p>
+    </div>
+    </div>
+</div>
+
+
+
+<script src="node_modules/chart.js/dist/chart.umd.js"></script>
+
+
+
+
+        <script src="sh_mar.js"></script>
+    </body>
+</html>

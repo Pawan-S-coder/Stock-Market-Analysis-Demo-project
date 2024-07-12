@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "chart.js": "^4.4.3",
+    "chartjs-adapter-moment": "^1.0.1",
+    "moment": "^2.30.1",
+    "node.js": "^0.0.1-security"
+  },
+  "name": "stock-market-analysis-demo-project",
+  "version": "1.0.0",
+  "description": "this project is based on analysis the person's  shares price profit/share and analysis the share's up-down on different time period.",
+  "main": "sh_mar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
